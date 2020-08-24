@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/something_selector" />
+        app:srcCompat="@drawable/something_selector"
+        android:background="@drawable/color_selecter" />
 
     <Button
         android:id="@+id/button"
@@ -25,6 +26,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"  />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/color_selecter"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

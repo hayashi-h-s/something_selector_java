@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View view) {
         imageView.setSelected(true);
+//        imageView.setEnabled(true);
+        button.setEnabled(true);
       }
     });
 
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
       @Override
       public void onClick(View view) {
         imageView.setSelected(false);
+//        imageView.setEnabled(false);
+        button.setEnabled(false);
       }
     });
 
